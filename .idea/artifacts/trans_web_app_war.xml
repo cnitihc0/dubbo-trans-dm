@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="trans-web-app:war">
+    <output-path>$PROJECT_DIR$/trans-web-app/target</output-path>
+    <root id="archive" name="trans-dm.war">
+      <element id="artifact" artifact-name="trans-web-app:war exploded" />
+    </root>
+  </artifact>
+</component>

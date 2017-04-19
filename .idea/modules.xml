@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/trans-core-sdk/trans-core-sdk.iml" filepath="$PROJECT_DIR$/trans-core-sdk/trans-core-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-dao/trans-dao.iml" filepath="$PROJECT_DIR$/trans-dao/trans-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-dm.iml" filepath="$PROJECT_DIR$/trans-dm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-service-api/trans-service-api.iml" filepath="$PROJECT_DIR$/trans-service-api/trans-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-service-provider/trans-service-provider.iml" filepath="$PROJECT_DIR$/trans-service-provider/trans-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trans-web-app/trans-web-app.iml" filepath="$PROJECT_DIR$/trans-web-app/trans-web-app.iml" />
+    </modules>
+  </component>
+</project>
