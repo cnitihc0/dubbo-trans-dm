@@ -2,6 +2,7 @@ package com.trans.dm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ImportResource;
 
 /**
  * @author mashaobo
@@ -10,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @email cnitihc0@163.com
  */
 @SpringBootApplication
-//@ImportResource("classpath:application-*.xml")
+@ImportResource("classpath:application-*.xml")
 public class TransDmServer {
     public static void main(String[] args) {
         SpringApplication.run(TransDmServer.class, args);

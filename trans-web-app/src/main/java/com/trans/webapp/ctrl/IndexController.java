@@ -1,6 +1,7 @@
 package com.trans.webapp.ctrl;
 
 
+import com.trans.dm.service.api.DemoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpSession;
+import javax.sound.midi.SysexMessage;
 
 /**
  * @author mashaobo
@@ -19,12 +21,5 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class IndexController {
     private Logger logger = LoggerFactory.getLogger(getClass());
-    @Autowired
-    private HttpSession session;
-
-    @RequestMapping(value={"login", "/"}, method=RequestMethod.GET)
-    public String login(){
-        return "/static/login.html";
-    }
 
 }

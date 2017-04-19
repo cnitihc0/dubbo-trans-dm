@@ -1,9 +1,12 @@
 package com.trans.webapp;
 
+import com.trans.dm.service.api.DemoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.ImportResource;
+import org.springframework.core.env.SystemEnvironmentPropertySource;
 
 /**
  * @author mashaobo
