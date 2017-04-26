@@ -22,7 +22,10 @@
 
 	<dubbo:application name="trans-web-app"/>
 
-	<dubbo:reference id="demoService" interface="com.trans.dm.service.api.DemoService" url="dubbo://127.0.0.1:20880/com.trans.dm.service.api.DemoService?version=1.0.0" />
+	<dubbo:registry protocol="zookeeper" address="119.23.24.181:2181,119.23.24.181:2182,119.23.24.181:2183" />
+
+	<!--<dubbo:reference id="demoService" interface="com.trans.dm.service.api.DemoService" url="dubbo://127.0.0.1:20880/com.trans.dm.service.api.DemoService?version=1.0.0" />-->
+	<dubbo:reference id="demoService" interface="com.trans.dm.service.api.DemoService" />
 
 
 	<!--<dubbo:reference id="demoService" interface="com.trans.dm.service.api.DemoService" />-->

@@ -9,10 +9,12 @@
        default-lazy-init="false">
     <!-- 提供方应用名称信息，这个相当于起一个名字，我们dubbo管理页面比较清晰是哪个应用暴露出来的 -->
     <dubbo:application name="dubbo_provider"></dubbo:application>
+
+    <!--<dubbo:registry address="N/A" check="false" subscribe="false" register=""></dubbo:registry>-->
     <!-- 使用zookeeper注册中心暴露服务地址 -->
-    <dubbo:registry address="N/A" check="false" subscribe="false" register=""></dubbo:registry>
+    <dubbo:registry protocol="zookeeper" address="119.23.24.181:2181,119.23.24.181:2182,119.23.24.181:2183" />
     <!-- 要暴露的服务接口 -->
 
-    <bean id="demoService" class="com.trans.dm.service.provider.DemoServiceImpl" />
+
     <dubbo:service interface="com.trans.dm.service.api.DemoService" ref="demoService" version="1.0.0" />
 </beans>
