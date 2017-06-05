@@ -21,12 +21,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.5.3.RELEASE</version>
         </dependency>
 
         <!-- 支持常规的测试依赖，包括JUnit、Hamcrest、Mockito以及spring-test模块。 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>1.5.3.RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
