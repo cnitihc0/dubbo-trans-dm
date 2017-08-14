@@ -17,12 +17,10 @@ import java.io.IOException;
 public class LimitsOfAuthorityFilter implements Filter {
     private static final Logger LOGGER = LoggerFactory.getLogger(LimitsOfAuthorityFilter.class);
 
-    @Override
     public void init(FilterConfig filterConfig) throws ServletException {
 
     }
 
-    @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         chain.doFilter(request, response);
     }
@@ -34,7 +32,6 @@ public class LimitsOfAuthorityFilter implements Filter {
         response.getWriter().println(s);
     }
 
-    @Override
     public void destroy() {
 
     }
